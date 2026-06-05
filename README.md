@@ -1,6 +1,6 @@
 # SP-1 Utility
 
-[Download the Mac DMG](https://github.com/JT-Apps/sp-1-utility/releases) · [JT Apps](https://jtapps.xyz)
+[Download the Mac DMG](https://github.com/JT-Apps/SP-1-Utility/releases)
 
 **SP-1 Utility** is a native Mac app from [JT Apps](https://jtapps.xyz) for
 preparing stem albums and transferring them to a Teenage Engineering SP-1 device over USB-C.
@@ -20,7 +20,7 @@ normal use is just download, install, prepare, preview, and transfer.
 
 ## Download
 
-The app download is in [Releases](https://github.com/JT-Apps/sp-1-utility/releases).
+The app download is in [Releases](https://github.com/JT-Apps/SP-1-Utility/releases).
 
 Download `SP-1 Utility.dmg`, open it, drag **SP-1 Utility** into
 **Applications**, then launch it from Applications.
@@ -30,11 +30,23 @@ large for normal GitHub repository files.
 
 ## Three Simple Functions
 
-| Area | What it does |
-| --- | --- |
-| Prepare | Add songs or four-stem folders, set BPM, and create SP-1-ready output. |
-| Library | Review prepared tracks, play master and stem previews, and inspect compatibility. |
-| Upload | Build the album plan, confirm device use, and transfer ready songs. |
+### Prepare
+
+Add songs or four-stem folders, set BPM, and create SP-1-ready output.
+
+![Prepare screen](assets/screenshots/prepare.png)
+
+### Library
+
+Review prepared tracks, play the preview mix, and check individual stems.
+
+![Library screen](assets/screenshots/library.png)
+
+### Upload
+
+Build an album plan, watch SP-1 live controls, and transfer ready WAVs over USB-C.
+
+![Upload screen](assets/screenshots/upload.png)
 
 ## Notes
 
