@@ -27,13 +27,17 @@ the device with transfer status you can actually read.
 
 ## Screenshots
 
-### Upload
+### Prepare
 
-![Upload plan with SP-1 live monitor and confirmed album status](docs/assets/screenshots/upload.png)
+![Prepare screen with song and stem import controls](docs/assets/screenshots/prepare.png)
 
 ### Library
 
 ![Library preview with master and individual stem playback](docs/assets/screenshots/library.png)
+
+### Upload
+
+![Upload plan with SP-1 live monitor and ready WAV drop area](docs/assets/screenshots/upload.png)
 
 ## Download
 
@@ -45,7 +49,7 @@ Install it like a normal Mac app: open the DMG, drag **SP-1 Utility** into
 No terminal, Homebrew, Python setup, or coding tools are required for normal
 use. The local processing engine is bundled with the app.
 
-## Three Screens
+## Three Simple Functions
 
 | Area | What it does |
 | --- | --- |
