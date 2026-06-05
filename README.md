@@ -9,7 +9,8 @@
 [![Testing](https://img.shields.io/badge/alpha-testing-2ea44f?style=for-the-badge)](docs/ALPHA_TESTING.md)
 
 **SP-1 Utility** is a native Mac app from [JT Apps](https://jtapps.xyz) for
-preparing stem albums and transferring them to an SP-1 over USB-C.
+preparing stem albums and transferring them to a Teenage Engineering SP-1
+device over USB-C.
 
 Built for the practical SP-1 workflow: add songs, create upload-ready
 24-bit 48 kHz eight-channel WAVs, preview the results, and send an album plan to
