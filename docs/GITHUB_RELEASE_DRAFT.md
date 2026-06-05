@@ -55,14 +55,7 @@ Everything needed for normal app use is included in the app bundle.
 
 ### Download
 
-- `SP-1 Utility.dmg`
-- `SP-1 Utility.dmg.sha256`
-
-Checksum:
-
-```text
-fe6b2d34e922a921dbbac45e08d40e03d847520cdcf5fea77bec4c991473a368
-```
+Download `SP-1 Utility.dmg` from this release.
 
 ### Reporting issues
 
@@ -75,6 +68,8 @@ When reporting an issue, include:
 - Whether the song row said Done, Ready, Needs resend, or Failed.
 - A screenshot of the transfer panel if the issue happened during upload.
 
-### Publisher
+### Credits
 
-SP-1 Utility is published by [JT Apps](https://jtapps.xyz).
+SP-1 Utility includes compatibility research and workflow attribution to
+[Solderless](https://solderless.engineering/) and the public
+[SP-1 development wiki](https://github.com/timknapen/SP-1-dev/wiki).

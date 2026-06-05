@@ -1,6 +1,6 @@
 # Support
 
-SP-1 Utility is in private alpha testing.
+SP-1 Utility is in alpha testing.
 
 For bugs, use the repository issue template and include:
 

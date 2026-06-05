@@ -6,18 +6,14 @@
 
 [![Download](https://img.shields.io/badge/Mac-download-1f6feb?style=for-the-badge)](https://github.com/JT-Apps/sp-1-utility/releases)
 [![Publisher](https://img.shields.io/badge/By-JT%20Apps-2b3137?style=for-the-badge)](https://jtapps.xyz)
-[![Testing](https://img.shields.io/badge/private-testing-2ea44f?style=for-the-badge)](docs/ALPHA_TESTING.md)
+[![Testing](https://img.shields.io/badge/alpha-testing-2ea44f?style=for-the-badge)](docs/ALPHA_TESTING.md)
 
 **SP-1 Utility** is a native Mac app from [JT Apps](https://jtapps.xyz) for
 preparing stem albums and transferring them to an SP-1 over USB-C.
 
-It is built for the practical SP-1 workflow: add songs, create upload-ready
+Built for the practical SP-1 workflow: add songs, create upload-ready
 24-bit 48 kHz eight-channel WAVs, preview the results, and send an album plan to
 the device with transfer status you can actually read.
-
-> **Alpha note:** this is a private testing build. Long transfers can take
-> hours. The best reports include the song title, the row status, and a
-> screenshot of the transfer panel.
 
 ## Highlights
 
@@ -30,22 +26,13 @@ the device with transfer status you can actually read.
 
 ## Download
 
-Open the latest release draft and download:
-
-- `SP-1 Utility.dmg`
-- `SP-1 Utility.dmg.sha256`
+Open the latest release and download `SP-1 Utility.dmg`.
 
 Install it like a normal Mac app: open the DMG, drag **SP-1 Utility** into
 **Applications**, then launch it from Applications.
 
 No terminal, Homebrew, Python setup, or coding tools are required for normal
 use. The local processing engine is bundled with the app.
-
-Current DMG checksum:
-
-```text
-fe6b2d34e922a921dbbac45e08d40e03d847520cdcf5fea77bec4c991473a368
-```
 
 ## Three Screens
 
@@ -84,16 +71,8 @@ Use the Library preview controls for normal stereo listening.
 See [Alpha Testing](docs/ALPHA_TESTING.md) for the test checklist and issue
 reporting format.
 
-This repository is currently used for private alpha distribution and tester
-feedback. Source code is not published here.
-
-## Links
-
-- [Latest release](https://github.com/JT-Apps/sp-1-utility/releases)
-- [Alpha testing guide](docs/ALPHA_TESTING.md)
-- [Support](SUPPORT.md)
-- [JT Apps](https://jtapps.xyz)
-
 ## Credits
 
-SP-1 Utility is published by [JT Apps](https://jtapps.xyz).
+SP-1 Utility includes compatibility research and workflow attribution to
+[Solderless](https://solderless.engineering/) and the public
+[SP-1 development wiki](https://github.com/timknapen/SP-1-dev/wiki).
