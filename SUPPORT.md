@@ -11,3 +11,6 @@ For bugs, use the repository issue template and include:
 - Transfer panel screenshot, if upload was involved.
 
 For general JT Apps contact, visit [jtapps.xyz](https://jtapps.xyz).
+
+Please do not attach copyrighted audio files unless they are necessary and you
+have permission to share them.

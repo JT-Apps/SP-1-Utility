@@ -4,9 +4,9 @@
 
 # SP-1 Utility
 
-[![Mac alpha](https://img.shields.io/badge/Mac-alpha-1f6feb?style=for-the-badge)](https://github.com/JT-Apps/sp-1-utility/releases)
-[![Publisher](https://img.shields.io/badge/JT%20Apps-jtapps.xyz-2b3137?style=for-the-badge)](https://jtapps.xyz)
-[![Status](https://img.shields.io/badge/private%20alpha-testing-2ea44f?style=for-the-badge)](docs/ALPHA_TESTING.md)
+[![Download](https://img.shields.io/badge/Mac-download-1f6feb?style=for-the-badge)](https://github.com/JT-Apps/sp-1-utility/releases)
+[![Publisher](https://img.shields.io/badge/By-JT%20Apps-2b3137?style=for-the-badge)](https://jtapps.xyz)
+[![Testing](https://img.shields.io/badge/private-testing-2ea44f?style=for-the-badge)](docs/ALPHA_TESTING.md)
 
 **SP-1 Utility** is a native Mac app from [JT Apps](https://jtapps.xyz) for
 preparing stem albums and transferring them to an SP-1 over USB-C.
@@ -30,7 +30,7 @@ the device with transfer status you can actually read.
 
 ## Download
 
-Open the latest draft release and download:
+Open the latest release draft and download:
 
 - `SP-1 Utility.dmg`
 - `SP-1 Utility.dmg.sha256`
@@ -40,6 +40,12 @@ Install it like a normal Mac app: open the DMG, drag **SP-1 Utility** into
 
 No terminal, Homebrew, Python setup, or coding tools are required for normal
 use. The local processing engine is bundled with the app.
+
+Current DMG checksum:
+
+```text
+fe6b2d34e922a921dbbac45e08d40e03d847520cdcf5fea77bec4c991473a368
+```
 
 ## Three Screens
 
@@ -85,6 +91,7 @@ feedback. Source code is not published here.
 
 - [Latest release](https://github.com/JT-Apps/sp-1-utility/releases)
 - [Alpha testing guide](docs/ALPHA_TESTING.md)
+- [Support](SUPPORT.md)
 - [JT Apps](https://jtapps.xyz)
 
 ## Credits

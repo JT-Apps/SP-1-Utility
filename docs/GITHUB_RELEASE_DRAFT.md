@@ -58,6 +58,12 @@ Everything needed for normal app use is included in the app bundle.
 - `SP-1 Utility.dmg`
 - `SP-1 Utility.dmg.sha256`
 
+Checksum:
+
+```text
+fe6b2d34e922a921dbbac45e08d40e03d847520cdcf5fea77bec4c991473a368
+```
+
 ### Reporting issues
 
 When reporting an issue, include:
