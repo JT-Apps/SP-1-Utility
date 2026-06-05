@@ -1,29 +1,22 @@
-# GitHub Release Draft
-
-Use this as the public release description when attaching the DMG.
+# Release Copy
 
 ## Title
 
 SP-1 Utility Alpha for Mac
 
-## Short Description
+## Body
 
-SP-1 Utility is a Mac app from JT Apps for preparing stem-based songs and
-transferring them to an SP-1 over USB-C.
+### SP-1 Utility Alpha
+
+SP-1 Utility is a Mac app from JT Apps for preparing stem-based songs,
+previewing the result, and transferring an album plan to an SP-1 over USB-C.
 
 No terminal, Homebrew, Python setup, or coding tools are required. The app
 ships with its local processing engine bundled inside the download.
 
-## Release Body
-
-### SP-1 Utility Alpha
-
-This is an early Mac-only alpha build for SP-1 owners who want a simpler way to
-prepare songs, preview stems, and transfer an album plan over USB-C.
-
 Download the DMG, open it, and drag **SP-1 Utility** into **Applications**.
 
-### What It Does
+### What it does
 
 - Prepares regular songs into SP-1-ready stem files.
 - Accepts existing four-stem folders when you already have separated stems.
@@ -35,13 +28,13 @@ Download the DMG, open it, and drag **SP-1 Utility** into **Applications**.
 - Resumes from confirmed progress when a recoverable transfer stall happens.
 - Shows a live SP-1 panel for faders, buttons, power, and mode while connected.
 
-### Built For Non-Technical Use
+### Built for non-technical use
 
 The app is packaged as a normal Mac download. You do not need to install
 developer tools, Homebrew, Python, command-line packages, or audio utilities.
 Everything needed for normal app use is included in the app bundle.
 
-### Important Alpha Notes
+### Important alpha notes
 
 - This is an alpha build, so please test with a small album first.
 - Large transfers can take hours. Keep the SP-1 plugged in and keep the Mac
@@ -53,7 +46,7 @@ Everything needed for normal app use is included in the app bundle.
   eight-channel device files. Use the app's Library preview for normal stereo
   listening.
 
-### Mac Requirements
+### Mac requirements
 
 - macOS 14 or newer.
 - Apple silicon Mac recommended.
@@ -62,12 +55,10 @@ Everything needed for normal app use is included in the app bundle.
 
 ### Download
 
-Download:
-
 - `SP-1 Utility.dmg`
-- `SP-1 Utility.dmg.sha256` for checksum verification, if you want it.
+- `SP-1 Utility.dmg.sha256`
 
-### Reporting Issues
+### Reporting issues
 
 When reporting an issue, include:
 

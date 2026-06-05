@@ -8,6 +8,7 @@ This checklist is for early testers running SP-1 Utility on a real SP-1.
 - Plug the SP-1 into USB-C and put it in transfer mode.
 - Keep the Mac awake for long transfers.
 - Use short test albums first, then move to larger albums.
+- If anything feels stuck, take a screenshot before restarting.
 
 ## What To Test
 
@@ -56,6 +57,13 @@ When reporting an issue, include:
 - Transfer panel text if a transfer was running.
 - Whether the SP-1 itself appeared to keep writing.
 - Any Console or trace file the app produced.
+
+## Good Screenshots To Attach
+
+- The toolbar connection chip.
+- The Upload transfer panel.
+- The song row that says Done, Ready, Needs resend, Failed, or Missing file.
+- The Library detail panel if the issue is about playback or stems.
 
 ## Known Alpha Limits
 

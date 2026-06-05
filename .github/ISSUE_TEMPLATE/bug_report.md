@@ -41,3 +41,8 @@ What happened instead?
 ## Files Or Logs
 
 Attach screenshots, Console output, or trace files when available.
+
+## Notes
+
+Please avoid attaching copyrighted audio files unless they are necessary and you
+have permission to share them.

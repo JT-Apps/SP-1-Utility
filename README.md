@@ -4,17 +4,20 @@
 
 # SP-1 Utility
 
-**SP-1 Utility** is a native macOS app by [JT Apps](https://jtapps.xyz) for
+[![Mac alpha](https://img.shields.io/badge/Mac-alpha-1f6feb?style=for-the-badge)](https://github.com/JT-Apps/sp-1-utility/releases)
+[![Publisher](https://img.shields.io/badge/JT%20Apps-jtapps.xyz-2b3137?style=for-the-badge)](https://jtapps.xyz)
+[![Status](https://img.shields.io/badge/private%20alpha-testing-2ea44f?style=for-the-badge)](docs/ALPHA_TESTING.md)
+
+**SP-1 Utility** is a native Mac app from [JT Apps](https://jtapps.xyz) for
 preparing stem albums and transferring them to an SP-1 over USB-C.
 
-It is built for the practical SP-1 workflow: bring in songs, create
-upload-ready 24-bit 48 kHz eight-channel WAVs, preview the results, then send a
-full album plan to the device with clear progress and recovery status.
+It is built for the practical SP-1 workflow: add songs, create upload-ready
+24-bit 48 kHz eight-channel WAVs, preview the results, and send an album plan to
+the device with transfer status you can actually read.
 
-> Alpha note: this project is still in hands-on hardware testing. Long transfers
-> can take hours, and tester reports are most useful when they include the app's
-> transfer status, the song title, and whether the row ended as Done or Needs
-> resend.
+> **Alpha note:** this is a private testing build. Long transfers can take
+> hours. The best reports include the song title, the row status, and a
+> screenshot of the transfer panel.
 
 ## Highlights
 
@@ -25,17 +28,30 @@ full album plan to the device with clear progress and recovery status.
 - Transfer albums over USB-C with confirmed-sector progress and retry recovery.
 - Monitor SP-1 faders, buttons, mode, power, and album status while connected.
 
-## App Flow
+## Download
 
-| Step | What happens |
+Open the latest draft release and download:
+
+- `SP-1 Utility.dmg`
+- `SP-1 Utility.dmg.sha256`
+
+Install it like a normal Mac app: open the DMG, drag **SP-1 Utility** into
+**Applications**, then launch it from Applications.
+
+No terminal, Homebrew, Python setup, or coding tools are required for normal
+use. The local processing engine is bundled with the app.
+
+## Three Screens
+
+| Area | What it does |
 | --- | --- |
-| Prepare | Add songs or stem folders, set BPM, and create SP-1-ready output. |
-| Library | Review prepared tracks, play previews, and inspect diagnostics. |
+| Prepare | Add songs or four-stem folders, set BPM, and create SP-1-ready output. |
+| Library | Review prepared tracks, play master and stem previews, and inspect diagnostics. |
 | Upload | Build the album plan, confirm device use, and transfer ready songs. |
 
 ## Output Folders
 
-Prepared files are written under the export folder selected in the app.
+Prepared files are written under the export folder selected in the app:
 
 | Folder | Purpose |
 | --- | --- |
@@ -57,18 +73,20 @@ Use the Library preview controls for normal stereo listening.
 - Editing a completed row marks it for resend because the device copy no longer
   matches the local album plan.
 
-## Download
+## Alpha Testing
 
-The alpha is distributed as a Mac DMG. Open the DMG, drag **SP-1 Utility** into
-**Applications**, and launch it like a normal Mac app.
+See [Alpha Testing](docs/ALPHA_TESTING.md) for the test checklist and issue
+reporting format.
 
-No terminal, Homebrew, Python setup, or coding tools are required for normal
-use. The local processing engine is bundled with the app.
+This repository is currently used for private alpha distribution and tester
+feedback. Source code is not published here.
 
-See [docs/GITHUB_RELEASE_DRAFT.md](docs/GITHUB_RELEASE_DRAFT.md) for the public
-release description and [docs/ALPHA_TESTING.md](docs/ALPHA_TESTING.md) for the
-tester checklist.
+## Links
+
+- [Latest release](https://github.com/JT-Apps/sp-1-utility/releases)
+- [Alpha testing guide](docs/ALPHA_TESTING.md)
+- [JT Apps](https://jtapps.xyz)
 
 ## Credits
 
-SP-1 Utility is developed by [JT Apps](https://jtapps.xyz).
+SP-1 Utility is published by [JT Apps](https://jtapps.xyz).
