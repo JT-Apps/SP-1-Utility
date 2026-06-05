@@ -24,6 +24,16 @@ the device with transfer status you can actually read.
 - Transfer albums over USB-C with confirmed-sector progress and retry recovery.
 - Monitor SP-1 faders, buttons, mode, power, and album status while connected.
 
+## Screenshots
+
+### Upload
+
+![Upload plan with SP-1 live monitor and confirmed album status](docs/assets/screenshots/upload.png)
+
+### Library
+
+![Library preview with master and individual stem playback](docs/assets/screenshots/library.png)
+
 ## Download
 
 Open the latest release and download `SP-1 Utility.dmg`.
