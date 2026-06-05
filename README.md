@@ -1,90 +1,63 @@
-<p align="center">
-  <img src="docs/assets/readme-hero.png" alt="SP-1 Utility" width="860">
-</p>
-
 # SP-1 Utility
 
-[![Download](https://img.shields.io/badge/Mac-download-1f6feb?style=for-the-badge)](https://github.com/JT-Apps/sp-1-utility/releases)
-[![Publisher](https://img.shields.io/badge/By-JT%20Apps-2b3137?style=for-the-badge)](https://jtapps.xyz)
-[![Testing](https://img.shields.io/badge/alpha-testing-2ea44f?style=for-the-badge)](docs/ALPHA_TESTING.md)
+[Download the Mac DMG](https://github.com/JT-Apps/sp-1-utility/releases) · [JT Apps](https://jtapps.xyz)
 
 **SP-1 Utility** is a native Mac app from [JT Apps](https://jtapps.xyz) for
-preparing stem albums and transferring them to a Teenage Engineering SP-1
-device over USB-C.
+preparing stem albums and transferring them to a Teenage Engineering SP-1 device over USB-C.
 
-Built for the practical SP-1 workflow: add songs, create upload-ready
-24-bit 48 kHz eight-channel WAVs, preview the results, and send an album plan to
-the device with transfer status you can actually read.
+It is built for people who want the SP-1 workflow without Terminal, Homebrew,
+Python setup, or coding tools. The app bundles the local processing engine, so
+normal use is just download, install, prepare, preview, and transfer.
 
-## Highlights
+## What It Does
 
-- Prepare songs or existing four-stem folders.
-- Build SP-1-ready WAVs: 24-bit, 48 kHz, eight-channel PCM.
-- Keep clean display names while using collision-safe prepared filenames.
-- Browse prepared tracks in Library with master and stem previews.
-- Transfer albums over USB-C with confirmed-sector progress and retry recovery.
-- Monitor SP-1 faders, buttons, mode, power, and album status while connected.
-
-## Screenshots
-
-### Prepare
-
-![Prepare screen with song and stem import controls](docs/assets/screenshots/prepare.png)
-
-### Library
-
-![Library preview with master and individual stem playback](docs/assets/screenshots/library.png)
-
-### Upload
-
-![Upload plan with SP-1 live monitor and ready WAV drop area](docs/assets/screenshots/upload.png)
+- Prepares regular songs or existing four-stem folders.
+- Creates SP-1-ready WAVs: 24-bit, 48 kHz, eight-channel PCM.
+- Keeps prepared tracks organized in a Library view.
+- Plays master and individual stem previews inside the app.
+- Transfers ready albums to the SP-1 over USB-C.
+- Shows connection state, transfer status, confirmed progress, and recovery details.
 
 ## Download
 
-Open the latest release and download `SP-1 Utility.dmg`.
+The app download is in [Releases](https://github.com/JT-Apps/sp-1-utility/releases).
 
-Install it like a normal Mac app: open the DMG, drag **SP-1 Utility** into
+Download `SP-1 Utility.dmg`, open it, drag **SP-1 Utility** into
 **Applications**, then launch it from Applications.
 
-No terminal, Homebrew, Python setup, or coding tools are required for normal
-use. The local processing engine is bundled with the app.
+The DMG is attached to the release instead of the Code tab because it is too
+large for normal GitHub repository files.
 
 ## Three Simple Functions
 
 | Area | What it does |
 | --- | --- |
 | Prepare | Add songs or four-stem folders, set BPM, and create SP-1-ready output. |
-| Library | Review prepared tracks, play master and stem previews, and inspect diagnostics. |
+| Library | Review prepared tracks, play master and stem previews, and inspect compatibility. |
 | Upload | Build the album plan, confirm device use, and transfer ready songs. |
 
-## Output Folders
-
-Prepared files are written under the export folder selected in the app:
-
-| Folder | Purpose |
-| --- | --- |
-| `Upload Ready WAVs` | The real full SP-1 WAVs used for upload. |
-| `Library` | Per-song folders for source files, stems, previews, and manifests. |
-| `SP-1 Ready` | Per-song shortcuts back to the full upload WAV. |
-| `Stems` | Review/edit stems created during preparation. |
-| `Source` | The original imported source for the prepared song. |
-
-Finder and Quick Look are not reliable previews for eight-channel SP-1 WAVs.
-Use the Library preview controls for normal stereo listening.
-
-## Hardware Transfer Notes
+## Notes
 
 - Keep the SP-1 plugged in and leave the Mac awake during transfer.
+- Large transfers can take hours.
 - A song is marked Done only after the SP-1 confirms the write sectors.
-- If the device stops confirming writes, the app records the stop reason and
-  resumes from the last confirmed sector when it can.
-- Editing a completed row marks it for resend because the device copy no longer
-  matches the local album plan.
+- Finder and Quick Look may not play upload WAVs normally because they are
+  eight-channel device files. Use the app's Library preview for normal listening.
 
-## Alpha Testing
+## Feedback And Bugs
 
-See [Alpha Testing](docs/ALPHA_TESTING.md) for the test checklist and issue
-reporting format.
+Use the repository **Issues** tab to report bugs or feedback.
+
+Helpful reports include:
+
+- macOS version.
+- SP-1 Utility version or release date.
+- What you were doing: Prepare, Library, or Upload.
+- Song title and row status, if a song was involved.
+- A screenshot of the transfer panel, if upload was involved.
+
+Please do not attach copyrighted audio files unless they are necessary and you
+have permission to share them.
 
 ## Credits
 
