@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/readme-hero.png" alt="SP-1 Utility" width="860">
+</p>
+
 # SP-1 Utility
 
 [Download the Mac DMG](https://github.com/JT-Apps/SP-1-Utility/releases)
