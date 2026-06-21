@@ -19,6 +19,8 @@ normal use is just download, install, prepare, preview, and transfer.
 - Creates SP-1-ready WAVs: 24-bit, 48 kHz, eight-channel PCM.
 - Keeps prepared tracks organized in a Library view.
 - Plays master and individual stem previews inside the app.
+- Install New Firmware (at your own risk)
+- Manage Multiple SP-1 Devices
 - Transfers ready albums to the SP-1 over USB-C.
 - Shows connection state, transfer status, confirmed progress, and recovery details.
 
